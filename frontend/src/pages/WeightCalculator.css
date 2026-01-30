@@ -16,7 +16,7 @@
 .page-icon {
     width: 56px;
     height: 56px;
-    background: linear-gradient(135deg, var(--primary-500), var(--primary-600));
+    background: var(--bg-brand);
     color: var(--text-inverse);
     border-radius: var(--radius-lg);
     display: flex;
@@ -299,6 +299,10 @@
 /* Dark Mode */
 [data-theme="dark"] .result-highlight:not(.primary):not(.secondary) {
     background-color: var(--gray-100);
+}
+
+[data-theme="dark"] .result-highlight.primary {
+    background: linear-gradient(135deg, var(--primary-800), var(--primary-900));
 }
 
 [data-theme="dark"] .mode-toggle {

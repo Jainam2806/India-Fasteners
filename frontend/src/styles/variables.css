@@ -58,6 +58,8 @@
   --bg-primary: var(--gray-50);
   --bg-secondary: #FFFFFF;
   --bg-tertiary: var(--gray-100);
+  --bg-brand: var(--primary-600);
+  /* Deep Navy for Hero/Footer */
 
   --text-primary: #2D3748;
   --text-secondary: #718096;
@@ -158,15 +160,38 @@
   --gray-800: #F1F5F9;
   --gray-900: #F8FAFC;
 
+  /* Brand Colors - High Contrast for Dark Mode */
+  --primary-50: #0f213d;
+  --primary-100: #142a4a;
+  --primary-200: #1a3356;
+  --primary-300: #4d66a1;
+  --primary-400: #60A5FA;
+  /* Brighter Blue */
+  --primary-500: #3B82F6;
+  /* Vibrant Blue */
+  --primary-600: #2563EB;
+  --primary-700: #1D4ED8;
+  --primary-800: #1E40AF;
+  --primary-900: #1E3A8A;
+
+  --secondary-400: #FB923C;
+  /* Brighter Orange */
+  --secondary-500: #F97316;
+  /* Vibrant Orange */
+  --secondary-600: #EA580C;
+
   /* Theme Colors - Dark Mode */
   --bg-primary: #0F172A;
   --bg-secondary: #1E293B;
   --bg-tertiary: #334155;
+  --bg-brand: #0d1e4d;
+  /* Deep Navy (Primary 900) - Visible but comforting */
 
   --text-primary: #F1F5F9;
   --text-secondary: #94A3B8;
   --text-muted: #64748B;
-  --text-inverse: #0F172A;
+  --text-inverse: #FFFFFF;
+  /* Fix: White text for visibility on Brand BGs */
 
   --border-light: #334155;
   --border-default: #475569;

@@ -44,6 +44,14 @@ function WeightCalculator() {
                 ]);
                 setFastenerTypes(types);
                 setMaterials(mats);
+
+                // Auto-select first fastener type
+                if (types.length > 0) {
+                    setFormData(prev => ({
+                        ...prev,
+                        fastenerType: types[0].id
+                    }));
+                }
             } catch (err) {
                 setError('Failed to load data. Make sure the backend is running.');
                 console.error(err);
@@ -207,9 +215,8 @@ function WeightCalculator() {
                         className="calculator-form-section"
                         initial={{ opacity: 0, x: -20 }}
                         animate={{ opacity: 1, x: 0 }}
-                        transition={{ delay: 0.1 }}
                     >
-                        <Card>
+                        <Card className="overflow-visible">
                             {/* Mode Toggle */}
                             <div className="mode-toggle">
                                 <button
