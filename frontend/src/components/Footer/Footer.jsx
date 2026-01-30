@@ -50,8 +50,8 @@ function Footer() {
                     <div className="footer-links">
                         <h4 className="footer-heading">Contact</h4>
                         <nav className="footer-nav">
-                            <a href="mailto:support@indiafasteners.com">
-                                <Mail size={14} /> support@indiafasteners.com
+                            <a href="mailto:jainamjparekh@gmail.com">
+                                <Mail size={14} /> jainamjparekh@gmail.com
                             </a>
                         </nav>
                     </div>
@@ -59,7 +59,7 @@ function Footer() {
 
                 <div className="footer-bottom">
                     <p className="footer-copyright">
-                        © {currentYear} India Fasteners. Web Clone for demonstration purposes.
+                        © {currentYear} India Fasteners.
                     </p>
                     <p className="footer-disclaimer">
                         Calculations are approximate. Always verify with official specifications.

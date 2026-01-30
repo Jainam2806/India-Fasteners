@@ -53,6 +53,7 @@
     font-weight: var(--font-weight-bold);
     line-height: 1.2;
     margin-bottom: var(--space-4);
+    color: #ffffff;
 }
 
 @media (min-width: 768px) {
