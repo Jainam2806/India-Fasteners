@@ -52,6 +52,9 @@ origins = [
     "http://127.0.0.1:5173",
     "http://localhost:8000",
     "http://127.0.0.1:8000",
+    # Production URLs
+    "https://india-fasteners-web.onrender.com",
+    "https://india-fasteners-api.onrender.com",
 ]
 
 app.add_middleware(
