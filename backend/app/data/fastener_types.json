@@ -1,0 +1,193 @@
+{
+    "fastener_types": [
+        {
+            "id": "hex_bolt",
+            "name": "Hex Bolt",
+            "category": "bolt",
+            "description": "Hexagonal head bolt with external threading, partially or fully threaded",
+            "has_length": true,
+            "has_thread_length": true,
+            "diagram_available": true
+        },
+        {
+            "id": "hex_bolt_full_thread",
+            "name": "Hex Bolt (Full Thread)",
+            "category": "bolt",
+            "description": "Hexagonal head bolt with full external threading along the entire length",
+            "has_length": true,
+            "has_thread_length": false,
+            "diagram_available": true
+        },
+        {
+            "id": "socket_head_cap_screw",
+            "name": "Socket Head Cap Screw",
+            "category": "bolt",
+            "description": "Cylindrical head with internal hexagon (Allen key) drive",
+            "has_length": true,
+            "has_thread_length": true,
+            "diagram_available": true
+        },
+        {
+            "id": "carriage_bolt",
+            "name": "Carriage Bolt",
+            "category": "bolt",
+            "description": "Smooth rounded head with square neck to prevent rotation",
+            "has_length": true,
+            "has_thread_length": false,
+            "diagram_available": true
+        },
+        {
+            "id": "stud_bolt",
+            "name": "Stud Bolt",
+            "category": "bolt",
+            "description": "Threaded rod without head, threaded on both ends",
+            "has_length": true,
+            "has_thread_length": false,
+            "diagram_available": true
+        },
+        {
+            "id": "flange_bolt",
+            "name": "Flange Bolt",
+            "category": "bolt",
+            "description": "Hex bolt with integrated flange washer",
+            "has_length": true,
+            "has_thread_length": true,
+            "diagram_available": true
+        },
+        {
+            "id": "eye_bolt",
+            "name": "Eye Bolt",
+            "category": "bolt",
+            "description": "Bolt with looped head for attaching ropes or cables",
+            "has_length": true,
+            "has_thread_length": false,
+            "diagram_available": true
+        },
+        {
+            "id": "anchor_bolt",
+            "name": "Anchor Bolt / Foundation Bolt",
+            "category": "bolt",
+            "description": "Used to anchor structures to concrete foundations",
+            "has_length": true,
+            "has_thread_length": false,
+            "diagram_available": true
+        },
+        {
+            "id": "hex_nut",
+            "name": "Hex Nut",
+            "category": "nut",
+            "description": "Standard hexagonal nut with internal threading",
+            "has_length": false,
+            "has_thread_length": false,
+            "diagram_available": true
+        },
+        {
+            "id": "lock_nut",
+            "name": "Lock Nut (Nylock)",
+            "category": "nut",
+            "description": "Hex nut with nylon insert for vibration resistance",
+            "has_length": false,
+            "has_thread_length": false,
+            "diagram_available": true
+        },
+        {
+            "id": "flange_nut",
+            "name": "Flange Nut",
+            "category": "nut",
+            "description": "Hex nut with integrated flange for load distribution",
+            "has_length": false,
+            "has_thread_length": false,
+            "diagram_available": true
+        },
+        {
+            "id": "wing_nut",
+            "name": "Wing Nut",
+            "category": "nut",
+            "description": "Nut with wing-shaped flanges for hand tightening",
+            "has_length": false,
+            "has_thread_length": false,
+            "diagram_available": true
+        },
+        {
+            "id": "castle_nut",
+            "name": "Castle Nut / Slotted Nut",
+            "category": "nut",
+            "description": "Hex nut with slots for cotter pin to prevent loosening",
+            "has_length": false,
+            "has_thread_length": false,
+            "diagram_available": true
+        },
+        {
+            "id": "thin_hex_nut",
+            "name": "Thin Hex Nut (Jam Nut)",
+            "category": "nut",
+            "description": "Reduced height hex nut for locking purposes",
+            "has_length": false,
+            "has_thread_length": false,
+            "diagram_available": true
+        },
+        {
+            "id": "plain_washer",
+            "name": "Plain Washer (Flat Washer)",
+            "category": "washer",
+            "description": "Flat disc for load distribution under bolt head or nut",
+            "has_length": false,
+            "has_thread_length": false,
+            "diagram_available": true
+        },
+        {
+            "id": "spring_washer",
+            "name": "Spring Washer (Lock Washer)",
+            "category": "washer",
+            "description": "Split ring washer providing spring tension to prevent loosening",
+            "has_length": false,
+            "has_thread_length": false,
+            "diagram_available": true
+        },
+        {
+            "id": "heavy_duty_washer",
+            "name": "Heavy Duty Plain Washer",
+            "category": "washer",
+            "description": "Thicker plain washer for heavy-duty applications",
+            "has_length": false,
+            "has_thread_length": false,
+            "diagram_available": true
+        },
+        {
+            "id": "machine_screw",
+            "name": "Machine Screw",
+            "category": "screw",
+            "description": "Small fastener for use with nuts or tapped holes",
+            "has_length": true,
+            "has_thread_length": false,
+            "diagram_available": true
+        },
+        {
+            "id": "self_tapping_screw",
+            "name": "Self-Tapping Screw",
+            "category": "screw",
+            "description": "Screw that creates its own thread when driven into material",
+            "has_length": true,
+            "has_thread_length": false,
+            "diagram_available": true
+        },
+        {
+            "id": "wood_screw",
+            "name": "Wood Screw",
+            "category": "screw",
+            "description": "Tapered screw designed for wood applications",
+            "has_length": true,
+            "has_thread_length": false,
+            "diagram_available": true
+        },
+        {
+            "id": "set_screw",
+            "name": "Set Screw (Grub Screw)",
+            "category": "screw",
+            "description": "Headless screw used to secure rotating parts",
+            "has_length": true,
+            "has_thread_length": false,
+            "diagram_available": true
+        }
+    ]
+}

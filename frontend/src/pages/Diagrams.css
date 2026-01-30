@@ -1,0 +1,156 @@
+/* Diagrams Page Styles */
+
+.diagrams-page {
+    padding: var(--space-8) 0;
+    min-height: calc(100vh - 200px);
+}
+
+.diagrams-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+}
+
+@media (min-width: 1024px) {
+    .diagrams-layout {
+        grid-template-columns: 320px 1fr;
+    }
+}
+
+/* Selector */
+.selector-title {
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-semibold);
+    margin-bottom: var(--space-4);
+}
+
+.dimension-list {
+    margin-top: var(--space-6);
+    padding-top: var(--space-4);
+    border-top: 1px solid var(--border-light);
+}
+
+.dimension-list h4 {
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-semibold);
+    color: var(--text-secondary);
+    margin-bottom: var(--space-3);
+}
+
+.dimension-item {
+    display: grid;
+    grid-template-columns: 40px 1fr auto;
+    gap: var(--space-2);
+    padding: var(--space-2) 0;
+    border-bottom: 1px solid var(--border-light);
+    align-items: center;
+}
+
+.dimension-item:last-child {
+    border-bottom: none;
+}
+
+.dim-key {
+    font-family: var(--font-mono);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-semibold);
+    color: var(--secondary-500);
+}
+
+.dim-name {
+    font-size: var(--font-size-sm);
+    color: var(--text-secondary);
+}
+
+.dim-value {
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-medium);
+    color: var(--text-primary);
+}
+
+/* Diagram Display */
+.diagram-card {
+    min-height: 500px;
+}
+
+.diagram-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: var(--space-4);
+    padding-bottom: var(--space-4);
+    border-bottom: 1px solid var(--border-light);
+}
+
+.diagram-header h3 {
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-semibold);
+}
+
+.diameter-badge {
+    padding: var(--space-1) var(--space-3);
+    background: linear-gradient(135deg, var(--primary-500), var(--primary-600));
+    color: var(--text-inverse);
+    border-radius: var(--radius-full);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-medium);
+    font-family: var(--font-mono);
+}
+
+.diagram-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--space-8);
+    background-color: var(--gray-50);
+    border-radius: var(--radius-md);
+    min-height: 350px;
+}
+
+.fastener-diagram {
+    max-width: 100%;
+    max-height: 300px;
+}
+
+.dim-label {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    fill: var(--secondary-600);
+    font-weight: 500;
+}
+
+.diagram-note {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    margin-top: var(--space-4);
+    padding: var(--space-3);
+    background-color: var(--info-light);
+    color: var(--info-dark);
+    border-radius: var(--radius-md);
+    font-size: var(--font-size-xs);
+}
+
+.diagram-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-muted);
+    text-align: center;
+    padding: var(--space-12);
+}
+
+.diagram-placeholder svg {
+    margin-bottom: var(--space-4);
+    opacity: 0.5;
+}
+
+.diagram-loading {
+    padding: var(--space-8);
+}
+
+/* Dark Mode */
+[data-theme="dark"] .diagram-container {
+    background-color: var(--gray-100);
+}

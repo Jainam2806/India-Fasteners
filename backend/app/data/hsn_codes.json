@@ -1,0 +1,145 @@
+{
+    "hsn_codes": [
+        {
+            "code": "7318",
+            "description": "Screws, Bolts, Nuts, Coach Screws, Screw Hooks, Rivets, Cotters, Cotter-Pins, Washers and Similar Articles, Of Iron or Steel",
+            "gst_rate": 18.0,
+            "material_type": "iron_steel"
+        },
+        {
+            "code": "731811",
+            "description": "Coach Screws of Iron or Steel",
+            "gst_rate": 18.0,
+            "material_type": "iron_steel"
+        },
+        {
+            "code": "731812",
+            "description": "Other Wood Screws of Iron or Steel",
+            "gst_rate": 18.0,
+            "material_type": "iron_steel"
+        },
+        {
+            "code": "731813",
+            "description": "Screw Hooks and Screw Rings of Iron or Steel",
+            "gst_rate": 18.0,
+            "material_type": "iron_steel"
+        },
+        {
+            "code": "731814",
+            "description": "Self-Tapping Screws of Iron or Steel",
+            "gst_rate": 18.0,
+            "material_type": "iron_steel"
+        },
+        {
+            "code": "731815",
+            "description": "Other Screws and Bolts, Whether or Not with Their Nuts or Washers",
+            "gst_rate": 18.0,
+            "material_type": "iron_steel"
+        },
+        {
+            "code": "73181500",
+            "description": "Bolts with Hexagon Head of Iron or Steel",
+            "gst_rate": 18.0,
+            "material_type": "iron_steel"
+        },
+        {
+            "code": "731816",
+            "description": "Nuts of Iron or Steel",
+            "gst_rate": 18.0,
+            "material_type": "iron_steel"
+        },
+        {
+            "code": "73181600",
+            "description": "Hexagon Nuts of Iron or Steel",
+            "gst_rate": 18.0,
+            "material_type": "iron_steel"
+        },
+        {
+            "code": "731821",
+            "description": "Spring Washers and Other Lock Washers of Iron or Steel",
+            "gst_rate": 18.0,
+            "material_type": "iron_steel"
+        },
+        {
+            "code": "731822",
+            "description": "Other Washers of Iron or Steel",
+            "gst_rate": 18.0,
+            "material_type": "iron_steel"
+        },
+        {
+            "code": "731823",
+            "description": "Rivets of Iron or Steel",
+            "gst_rate": 18.0,
+            "material_type": "iron_steel"
+        },
+        {
+            "code": "731824",
+            "description": "Cotters and Cotter-Pins of Iron or Steel",
+            "gst_rate": 18.0,
+            "material_type": "iron_steel"
+        },
+        {
+            "code": "731829",
+            "description": "Other Non-Threaded Articles of Iron or Steel (Washers, etc.)",
+            "gst_rate": 18.0,
+            "material_type": "iron_steel"
+        },
+        {
+            "code": "7415",
+            "description": "Nails, Tacks, Drawing Pins, Staples and Similar Articles of Copper",
+            "gst_rate": 18.0,
+            "material_type": "copper_brass"
+        },
+        {
+            "code": "741521",
+            "description": "Washers (Including Spring Washers) of Copper",
+            "gst_rate": 18.0,
+            "material_type": "copper_brass"
+        },
+        {
+            "code": "741533",
+            "description": "Screws, Bolts and Nuts of Copper",
+            "gst_rate": 18.0,
+            "material_type": "copper_brass"
+        },
+        {
+            "code": "7616",
+            "description": "Other Articles of Aluminium",
+            "gst_rate": 18.0,
+            "material_type": "aluminium"
+        },
+        {
+            "code": "76161000",
+            "description": "Nails, Tacks, Staples, Screws, Bolts, Nuts, Screw Hooks and Similar Articles of Aluminium",
+            "gst_rate": 18.0,
+            "material_type": "aluminium"
+        }
+    ],
+    "gst_info": {
+        "current_rate": 18.0,
+        "effective_from": "2017-07-01",
+        "note": "GST rate for most fasteners under HSN 7318 is 18%. Some states may have additional levies.",
+        "categories": {
+            "iron_steel": {
+                "name": "Iron or Steel Fasteners",
+                "rate": 18.0,
+                "main_hsn": "7318"
+            },
+            "copper_brass": {
+                "name": "Copper/Brass Fasteners",
+                "rate": 18.0,
+                "main_hsn": "7415"
+            },
+            "aluminium": {
+                "name": "Aluminium Fasteners",
+                "rate": 18.0,
+                "main_hsn": "7616"
+            },
+            "stainless_steel": {
+                "name": "Stainless Steel Fasteners",
+                "rate": 18.0,
+                "main_hsn": "7318"
+            }
+        }
+    }
+}

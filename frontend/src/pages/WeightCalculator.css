@@ -1,0 +1,306 @@
+/* Weight Calculator Page Styles */
+
+.calculator-page {
+    padding: var(--space-8) 0;
+    min-height: calc(100vh - 200px);
+}
+
+/* Page Header */
+.page-header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    margin-bottom: var(--space-8);
+}
+
+.page-icon {
+    width: 56px;
+    height: 56px;
+    background: linear-gradient(135deg, var(--primary-500), var(--primary-600));
+    color: var(--text-inverse);
+    border-radius: var(--radius-lg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-title {
+    font-size: var(--font-size-2xl);
+    font-weight: var(--font-weight-bold);
+    color: var(--text-primary);
+    margin-bottom: var(--space-1);
+}
+
+.page-subtitle {
+    font-size: var(--font-size-base);
+    color: var(--text-secondary);
+    margin: 0;
+}
+
+/* Calculator Layout */
+.calculator-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+    margin-bottom: var(--space-8);
+}
+
+@media (min-width: 1024px) {
+    .calculator-layout {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Mode Toggle */
+.mode-toggle {
+    display: flex;
+    background-color: var(--gray-100);
+    border-radius: var(--radius-md);
+    padding: var(--space-1);
+    margin-bottom: var(--space-6);
+}
+
+.mode-btn {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-2);
+    padding: var(--space-3) var(--space-4);
+    background: none;
+    border: none;
+    font-family: var(--font-family);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-medium);
+    color: var(--text-secondary);
+    cursor: pointer;
+    border-radius: var(--radius-md);
+    transition: all var(--transition-fast);
+}
+
+.mode-btn:hover {
+    color: var(--text-primary);
+}
+
+.mode-btn.active {
+    background-color: var(--bg-secondary);
+    color: var(--primary-500);
+    box-shadow: var(--shadow-sm);
+}
+
+/* Form Grid */
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+    margin-bottom: var(--space-6);
+}
+
+@media (min-width: 640px) {
+    .form-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Error Message */
+.error-message {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-3) var(--space-4);
+    background-color: var(--error-light);
+    color: var(--error-dark);
+    border-radius: var(--radius-md);
+    font-size: var(--font-size-sm);
+    margin-bottom: var(--space-4);
+}
+
+/* Calculate Button */
+.calculate-btn {
+    width: 100%;
+}
+
+/* Results Section */
+.result-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: var(--space-12);
+    background-color: var(--bg-secondary);
+    border: 2px dashed var(--border-default);
+    border-radius: var(--radius-lg);
+    min-height: 400px;
+}
+
+.placeholder-icon {
+    color: var(--gray-300);
+    margin-bottom: var(--space-4);
+}
+
+.result-placeholder h3 {
+    font-size: var(--font-size-lg);
+    color: var(--text-secondary);
+    margin-bottom: var(--space-2);
+}
+
+.result-placeholder p {
+    font-size: var(--font-size-sm);
+    color: var(--text-muted);
+    margin: 0;
+}
+
+/* Result Card */
+.result-card {
+    border: 2px solid var(--success);
+}
+
+.result-header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    margin-bottom: var(--space-6);
+    padding-bottom: var(--space-4);
+    border-bottom: 1px solid var(--border-light);
+}
+
+.result-icon {
+    color: var(--success);
+}
+
+.result-header h3 {
+    font-size: var(--font-size-lg);
+    color: var(--text-primary);
+    margin: 0;
+}
+
+/* Result Summary */
+.result-summary {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-4);
+    margin-bottom: var(--space-6);
+}
+
+@media (max-width: 640px) {
+    .result-summary {
+        grid-template-columns: 1fr;
+    }
+}
+
+.result-item {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-1);
+}
+
+.result-label {
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-medium);
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.result-value {
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-medium);
+    color: var(--text-primary);
+}
+
+/* Result Main */
+.result-main {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+    margin-bottom: var(--space-6);
+}
+
+.result-highlight {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--space-4);
+    background-color: var(--gray-50);
+    border-radius: var(--radius-md);
+}
+
+.result-highlight.primary {
+    background: linear-gradient(135deg, var(--primary-500), var(--primary-600));
+    color: var(--text-inverse);
+}
+
+.result-highlight.secondary {
+    background: linear-gradient(135deg, var(--secondary-400), var(--secondary-500));
+    color: var(--text-inverse);
+}
+
+.result-highlight-label {
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-medium);
+}
+
+.result-highlight.primary .result-highlight-label,
+.result-highlight.secondary .result-highlight-label {
+    opacity: 0.9;
+}
+
+.result-highlight-value {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-bold);
+}
+
+/* Result Note */
+.result-note {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-2);
+    padding: var(--space-3);
+    background-color: var(--info-light);
+    color: var(--info-dark);
+    border-radius: var(--radius-md);
+    font-size: var(--font-size-xs);
+    line-height: var(--line-height-relaxed);
+}
+
+.result-note svg {
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+/* Info Cards */
+.info-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+}
+
+@media (min-width: 768px) {
+    .info-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.info-card h4 {
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-semibold);
+    color: var(--text-primary);
+    margin-bottom: var(--space-2);
+}
+
+.info-card p {
+    font-size: var(--font-size-sm);
+    color: var(--text-secondary);
+    line-height: var(--line-height-relaxed);
+    margin: 0;
+}
+
+/* Dark Mode */
+[data-theme="dark"] .result-highlight:not(.primary):not(.secondary) {
+    background-color: var(--gray-100);
+}
+
+[data-theme="dark"] .mode-toggle {
+    background-color: var(--gray-100);
+}

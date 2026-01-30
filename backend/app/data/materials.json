@@ -1,0 +1,70 @@
+{
+    "materials": [
+        {
+            "id": "mild_steel",
+            "name": "Mild Steel (MS)",
+            "density": 7.85,
+            "grade": "4.6/4.8"
+        },
+        {
+            "id": "high_tensile_8_8",
+            "name": "High Tensile Steel",
+            "density": 7.85,
+            "grade": "8.8"
+        },
+        {
+            "id": "high_tensile_10_9",
+            "name": "High Tensile Steel",
+            "density": 7.85,
+            "grade": "10.9"
+        },
+        {
+            "id": "high_tensile_12_9",
+            "name": "High Tensile Steel",
+            "density": 7.85,
+            "grade": "12.9"
+        },
+        {
+            "id": "stainless_steel_304",
+            "name": "Stainless Steel 304",
+            "density": 7.93,
+            "grade": "A2-70"
+        },
+        {
+            "id": "stainless_steel_316",
+            "name": "Stainless Steel 316",
+            "density": 8.00,
+            "grade": "A4-70"
+        },
+        {
+            "id": "brass",
+            "name": "Brass",
+            "density": 8.50,
+            "grade": null
+        },
+        {
+            "id": "aluminium",
+            "name": "Aluminium",
+            "density": 2.70,
+            "grade": null
+        },
+        {
+            "id": "zinc_plated",
+            "name": "Zinc Plated Steel",
+            "density": 7.85,
+            "grade": "4.8 ZP"
+        },
+        {
+            "id": "galvanized",
+            "name": "Hot Dip Galvanized Steel",
+            "density": 7.85,
+            "grade": "HDG"
+        },
+        {
+            "id": "black_oxide",
+            "name": "Black Oxide Coated Steel",
+            "density": 7.85,
+            "grade": "BO"
+        }
+    ]
+}
